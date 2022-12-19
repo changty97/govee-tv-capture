@@ -1,0 +1,4 @@
+opencv-python
+govee-api2
+pre-commit
+pylint
