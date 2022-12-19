@@ -1,3 +1,5 @@
+configparser
+logging
 opencv-python
 govee-api2
 pre-commit
