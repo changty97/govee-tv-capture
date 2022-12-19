@@ -23,7 +23,11 @@ def govee_connection(email, password, client_id=None):
     time.sleep(10)
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     email = getCredentials().getEmail()
     password = getCredentials().getPassword()
     client_id = getCredentials().getClientID()
     print(client_id)
+=======
+    print(getCredentials().getUser)
+>>>>>>> 63220d5244216a91f7e9a63ff2830b9a8bd67956
