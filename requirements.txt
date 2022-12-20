@@ -1,6 +1,5 @@
 configparser
-logging
 opencv-python
-govee-api2
+govee-api-ble
 pre-commit
 pylint
