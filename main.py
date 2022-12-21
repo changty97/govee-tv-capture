@@ -1,10 +1,11 @@
-from getCredentials import getCredentials
+from getConfig import getConfig
 from govee_api_ble import GoveeDevice
 
 
 def govee_connection():
     # Initialize the device
-    my_device = GoveeDevice('34:20:03:49:72:3D')
+    mac_address = getConfig().getMAC()
+    my_device = GoveeDevice(mac_address)
 
     my_device.setPower(True) # Turns device on
     
